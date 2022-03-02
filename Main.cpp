@@ -9,9 +9,9 @@
 
 // Settings
 const bool INF = true;
-const int TIME /* in nanoseconds */ = 0;
-const int ROWS = 100;
-const int LENGTH = 20;
+const int TIME /* in milliseconds */ = 25;
+const int ROWS = 5;
+const int LENGTH = 5;
 
 
 
@@ -22,7 +22,7 @@ void squiggle() {
   std::string x = "";
 
   for (int t = LENGTH; t > 0; t--) {
-    x += "101001";
+    x += "#";
   }
 
   std::string s = " ";
